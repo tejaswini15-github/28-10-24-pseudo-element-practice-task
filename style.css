@@ -1,0 +1,22 @@
+.first-letter::first-letter {
+    font-size: 2rem;
+    color: red;
+}
+.first-line::first-line {
+    color: red;
+    font-style: italic;
+}
+p::selection {
+    background-color: rgb(135, 235, 150);
+}
+input::placeholder{
+    text-align: center;
+    color: blueviolet;
+}
+input {
+    font-size: 2rem;
+}
+li::marker {
+    content: '';
+    font-size: 1.5rem;
+}
